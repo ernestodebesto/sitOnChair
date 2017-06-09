@@ -46,6 +46,7 @@ html {
 .page-header {
   background:#000;
   height:40px;
+  z-index:100;
 }
 
 .page-logo {
@@ -127,4 +128,103 @@ html {
 .page-nav li:hover .page-nav-sublist {
   visibility: visible;
   opacity:1;
+}
+
+
+/*main slider */
+.main-slider-bg{
+  height:600px;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  border:1px solid red;
+}
+
+.main-slider{
+  position:relative;
+  height:600px;
+  border:1px solid blue;
+}
+
+.main-slider-slides-cnt {
+  position:relative;
+  margin:0 60px;
+  height:100%;
+  border:1px solid black;
+}
+
+.main-slider-prev {
+  font-size:22px;
+  background:none;
+  border:0;
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:10px;
+  margin-top:25%;
+}
+
+
+.main-slider-next {
+    font-size:22px;
+    background:none;
+    border:0;
+    position:absolute;
+    width:50px;
+    height:50px;
+    right:10px;
+    top:10px;
+    margin-top:25%;
+}
+
+.main-slider-content {
+  left: 50%;
+  top:0;
+  position:absolute;
+  width:50%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.main-slider-content h1 {
+    text-transform:uppercase;
+    font-size:40px;
+    margin-left:25px;
+    margin-top:200px;
+
+}
+
+.main-slider-content h1 span {
+  color:rgba(0,200,170,1);
+  font-weight:600;
+}
+
+
+.main-slider-image {
+  right: 50%;
+  top:0;
+  position:absolute;
+  width:50%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.main-slider-image img {
+  margin-top:150px;
+  height:325px;
+  width:auto;
+}
+
+.main-slider-content p {
+  text-align:center;
+  padding: 15px;
+}
+
+.main-slider-content a {
+  background-color:rgba(0,200,170,1);
+  color:white;
+  font-size:25px;
+  padding:10px;
+  border-radius:4px;
+  text-decoration:none;
+  margin-left:112px;
+  margin-top:20px;
 }
