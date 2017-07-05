@@ -10,6 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src='js/scripts.js'></script>
     </head>
     <body>
       <div class="wrap-all">
@@ -46,7 +47,7 @@
                       <a href=''>Zobacz wiecej </a>
                     </div>
                     <div class="main-slider-image">
-                      <img src="img/images/black_chair.png"></a>
+                      <!-- <img src="img/images/black_chair.png"></a> -->
                     </div>
                   </div>
                 <button type='button' class='main-slider-next'>&gt;</button>
@@ -54,5 +55,126 @@
               </div>
             </div>
           </div>
+
+          <!-- pod slajderem -->
+
+          <section class="features">
+            <div class="features-content container">
+              <div class="features-content-box style-product">
+                <div class="features-content-box-title">
+                  <h3>Chair <span>Clair</span></h3>
+                </div>
+                <img src="img/images/box1_img.jpg" alt="Clair-Chair">
+              </div>
+              <div class="features-content-box  'img/images/black_chair.png';uct">
+                <div class="features-content-box-title dpr features-content-box style-product">
+                  <h3>Chair <span>Margarita</span></h3>
+                </div>
+                <img src="img/images/box2_img.jpg" alt="Margarita-Chair">
+              </div>
+              <div class="features-content-box style-article">
+                <article class="features-content-article">
+                  <h3>Finds all inputs</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="offer">
+            <div class="offer-content container">
+              <article class="offer-content-article">
+                <h2 class="offer-content-pricing">Cennik</h2>
+                <ul class="offer-content-prices">
+                  <li class="offer-content-prices-basic">
+                    <h3>Basic Plan</h3>
+                    <ul class="offer-content-prices-basic-details">
+                      <li><sub>85</sub><sup>99</sup> <span>PLN/MSC</span></li>
+                      <li>Zakup towaru + dowóz</li>
+                      <li>Serwis</li>
+                      <li><button>Dołącz</button></li>
+                    </ul>
+                  </li>
+                  <li class="offer-content-prices-standard">
+                    <h3>Standard Plan</h3>
+                    <ul class="offer-content-prices-basic-details">
+                      <li><sub>95</sub><sup>99</sup> <span>PLN/MSC</span></li>
+                      <li>Zakup towaru + dowóz</li>
+                      <li>Serwis</li>
+                      <li>Gwarancja 5 lat</li>
+                      <li><button>Dołącz</button></li>
+                    </ul>
+                  </li>
+                  <li class="offer-content-prices-advenced">
+                    <h3>Advenced Plan</h3>
+                    <ul class="offer-content-prices-basic-details">
+                      <li><sub>211</sub><sup>00</sup> <span>PLN/MSC</span></li>
+                      <li>Zakup towaru + dowóz</li>
+                      <li>Serwis</li>
+                      <li>Gwarancja 6 lat</li>
+                      <li>Porady projektanta</li>
+                      <li><button>Dołącz</button></li>
+                    </ul>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </section>
+          <section class="contact">
+            <div class="contact-content container">
+              <h2 class="contact-content-title">Kontakt</h2>
+              <div class="contact-content-form">
+                <form action="">
+                  <div class="form-content-left">
+                      <div class="row ">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Imię">
+                      </div>
+                      <div class="row">
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="email">
+                      </div>
+                      <div class="row">
+                        <label for="message"></label>
+                        <textarea type="text" rows="3" id="message" name="message" placeholder="Wiadomość"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-content-right">
+                      <div class="row form-picture"></div>
+                      <div class="row">
+                        <input type="checkbox" id="consent" name="consent">
+                        <label for="consent"><span></span><p>Zgadzam się na przetwarzanie danych osobowych</p></label>
+                      </div>
+                      <div class="row">
+                        <label for="send"></label>
+                        <button type="submit">Wyślij</button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer-content container">
+              <div class="left-content">
+                <p>Copyright 2017 | All Rights Reserved - Sit On Chair<p>
+              </div>
+              <div class="right-content">
+                <ul class="footer-content-socialmedia">
+                  <li><a href="#"><img src="img/images/flickr.png" alt="Flickr"></a></li>
+                  <li><a href="#"><img src="img/images/vimeo.png" alt="Vimeo"></a></li>
+                  <li><a href="#"><img src="img/images/pinterest.png" alt="Pinterest"></a></li>
+                  <li><a href="#"><img src="img/images/twitter.png" alt="Twitter"></a></li>
+                </ul>
+                <a href="#" class="footer-content-logo">
+                  <h2>Sit <span>on</span> Chair</h2>
+                </a>
+              </div>
+            </div>
+          </footer>
     </body>
 </html>
